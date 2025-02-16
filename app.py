@@ -57,5 +57,5 @@ def process_url():
     
     return jsonify({'transcript': transcript})
 
-if __name__ == '__main__':
-    app.run(debug=True) 
+# Remove the if __name__ == '__main__' block for Vercel
+app = app 
